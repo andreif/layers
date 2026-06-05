@@ -1,0 +1,10 @@
+[project]
+name = "layer"
+version = "0.0.0"
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.uv]
+exclude-newer = "7 days"
+required-version = ">=0.11.16"
+package = false
